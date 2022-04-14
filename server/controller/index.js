@@ -8,6 +8,8 @@ exports.myFunction = (req,res) => {
 exports.myFunctionDiv = (req,res) => {
     console.log("called")
     let n = req.body.num1;
+    let x;
+    
     let {num2} = req.body;
     console.log(n,num2);
     try{
